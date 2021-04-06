@@ -1,18 +1,37 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Node Ignore
 
-# dependencies
-/node_modules
+## Logs
+logs
+*.log
+npm-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Dependency directories
+node_modules/
 /.pnp
 .pnp.js
 
-# testing
-/coverage
+# Dependency for this project
+desafio-01/backend/node_modules/
+desafio-01/backend/package-lock.json
+desafio-01/backend/package.json
+desafio-03/
 
-# production
-/build
+trabalho-pratico-03/src/components
 
 # Optional npm cache directory
 .npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Folder VSCode ignore
+.vscode/
 
 # misc
 .DS_Store
@@ -24,3 +43,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# testing
+/coverage
+
+# production
+/build
