@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background: #ececec;
+  color: rgb(0, 0, 0);
+  font-family: 'Poppins', sans-serif;
+  font-size: 67.5%;
+}
+
+ul {
+  list-style: none;
+  width: 100%;
+}
+
+i {
+  pointer-events: none;
+}
+
+header {
+  width: 100%;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+#searchbar,
+#search-button {
+  font-size: 1rem;
+}
+
+#searchbar {
+  background: inherit;
+  color: rgb(0, 0, 0);
+  padding: 10px 5px;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.75);
+  outline: none;
+  border-radius: 3px;
+  width: 50%;
+}
+
+#search-button {
+  padding: 10px 12px;
+  background: rgb(99, 199, 152);
+  color: rgb(0, 0, 0);
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 5px;
+  transition: 0.2s ease-in-out;
+}
+
+#search-button:hover {
+  background: rgb(0, 0, 0);
+  color: #ffffff;
+  border-radius: 3px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.users-section,
+.stats-section {
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.75);
+  width: 40%;
+  padding: 10px;
+}
+
+.stats-section {
+  max-height: 35vh;
+}
+
+.users-section .section-title,
+.stats-section .section-title {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.user-item:not(:first-child),
+.stats-item:not(:first-child) {
+  margin-top: 10px;
+}
+
+.user-item,
+.stats-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  border: 2px solid rgba(0, 0, 0, 0.75);
+  /* box-shadow: 1px 1px 3px 1px rgba(255, 255, 255, 0.75); */
+  padding: 20px 10px;
+}
+
+.stats-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+.user-name {
+  flex: 1;
+  font-size: 1rem;
+}
+
+.img-container {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 5px;
+}

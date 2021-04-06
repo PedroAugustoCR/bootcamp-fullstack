@@ -1,0 +1,3 @@
+*.pdf
+backend/node_modules/*
+*.gif
