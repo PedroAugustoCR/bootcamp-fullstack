@@ -1,0 +1,41 @@
+.container {
+  max-width: 720px;
+  margin: auto;
+  margin-top: 30px;
+
+  background: #fff;
+  color: #000;
+  border-radius: 0.2rem;
+}
+
+h1 {
+  max-width: max-content;
+  margin: auto;
+}
+
+.container div {
+  display: flex;
+  margin-top: -15px;
+}
+
+.input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+
+  background: inherit;
+  color: inherit;
+}
+
+.input[disabled] {
+  cursor: not-allowed;
+}
+
+button {
+  border: none;
+  background: inherit;
+  cursor: pointer;
+}
+
+svg {
+  pointer-events: none;
+}
